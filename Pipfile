@@ -1,0 +1,32 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+
+flask = "*"
+"flask-sqlalchemy" = "*"
+"flask-user" = "*"
+"flask-mail" = "*"
+"psycopg2" = "*"
+"flask-wtf" = "*"
+gunicorn = "*"
+"flask-migrate" = "*"
+stripe = "*"
+
+
+[dev-packages]
+
+pylint = "*"
+"autopep8" = "*"
+
+
+
+
+
+
+
+
+
+
